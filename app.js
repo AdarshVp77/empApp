@@ -1,8 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const UserModel = require("./Models/user");
-const Employee = require("./Models/employee");
 const adminRoutes = require("./Routes/adminRoutes");
 const employeeRoutes = require("./Routes/employeeRoutes");
 require("dotenv").config();
